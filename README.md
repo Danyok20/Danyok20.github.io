@@ -1,2 +1,2 @@
 # Danyok20.github.io
-Мой первый хостинг
+My_first_hosting
