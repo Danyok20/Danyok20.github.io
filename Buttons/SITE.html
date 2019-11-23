@@ -1,0 +1,29 @@
+<html>
+<script type="text/javascript">
+      <!--
+        function myfunction() {
+            let A = document.getElementById("A").value;
+            let B = document.getElementById("B").value;
+            let S = A+B;
+            document.getElementById("tx").innerHTML+="<p>Hello: " +  A + " " + B + "</p>";
+        }
+</script>  
+    <input type="text" id="A"/>
+    <input type="text" id="B"/>
+    <select name="town" id="s1">
+        <option value="72">72</option>
+        <option value="150">150</option>
+        <option value="92">92</option>
+    </select>
+    <img src="img/Button_f3.gif"
+        alt="Кнопка"
+        width="92"
+        height="52"
+        border="0"
+        onmousedown="src='img/Button_f2.gif'"
+        onmouseover="src='img/Button.gif'"
+        onmouseout="src='img/Button_f3.gif'"
+        onmouseup="src='img/Button_f3.gif'"
+        onclick="myfunction()">
+    <div id="tx"></div> 
+</html>        
