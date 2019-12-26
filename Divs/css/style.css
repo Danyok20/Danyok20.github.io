@@ -1,0 +1,33 @@
+*{padding: 0; margin: 0;}
+.background{
+	width: 100%;
+	background-color: #00FFFF;
+	height: 100vh;
+	position: relative;
+}
+.container{
+	width: 100%;
+	height: 800px;
+	background-color: #3CB371;
+	position: absolute;
+	top: 10%;
+}
+.block-1{
+	width: 800px;
+	height: 800px;
+	margin: 0 auto;
+	background-color:#CD5C5C;
+	position: relative;
+}
+.flex{
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	flex-wrap: wrap;
+}
+.flex div{
+	width: 33%;
+	height: 100px;
+	background-color: #F0E68C ;
+	margin-top: 40px;
+}
